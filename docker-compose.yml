@@ -14,7 +14,7 @@ services:
   mysql:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: Refd36987412
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: restaurant
     ports:
       - "4406:3306"
